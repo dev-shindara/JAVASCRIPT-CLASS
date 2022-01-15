@@ -1,0 +1,23 @@
+{
+  "name": "javascript-class",
+  "version": "1.0.0",
+  "main": "condition.js",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-shindara/JAVASCRIPT-CLASS.git"
+  },
+  "author": "shindara, jeremiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-shindara/JAVASCRIPT-CLASS/issues"
+  },
+  "homepage": "https://github.com/dev-shindara/JAVASCRIPT-CLASS#readme",
+  "description": ""
+}
