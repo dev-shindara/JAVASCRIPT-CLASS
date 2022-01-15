@@ -4,7 +4,6 @@ function print(string) {
     console.log(string);
 }
 
-const weather = input('What is the weather now? ');
 
 // console.log() === print;
 // therefore console.log prints a word
@@ -13,6 +12,7 @@ const weather = input('What is the weather now? ');
 
 // }
 
+const weather = input('What is the weather now? ');
 print(`The weather is ${weather}`)
 
 
@@ -37,7 +37,15 @@ if (weather == 'hot') {
         if (raincoatAnswer == "yes") {
             console.log("Go out");
         } else {
-            console.log("Go under the rain or stay indoors");
+            let eventAnswer = input("Is your event very important [yes/no]? ");
+
+            if (eventAnswer == "yes") {
+                console.log("Go under the rain");
+            } else if (eventAnswer == "no") {
+                console.log("Stay indoors");
+            } else {
+                console.log("I dont what you saying please start program again")
+            }
         }
 
     } else {
