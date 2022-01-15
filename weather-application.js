@@ -12,7 +12,7 @@ function print(string) {
 
 // }
 
-const weather = input('What is the weather now? ');
+const weather = input('What is the weather now? ').toLowerCase();
 print(`The weather is ${weather}`)
 
 
@@ -24,7 +24,7 @@ if (weather == 'hot') {
 
     console.log("look for an umbrella")
 
-    let umbrellaAnswer = input("Did you find an umbrella [yes/no]? ")
+    let umbrellaAnswer = input("Did you find an umbrella [yes/no]? ").toLowerCase()
 
     if (umbrellaAnswer == "yes") {
         console.log("Go out");
@@ -32,12 +32,12 @@ if (weather == 'hot') {
 
         console.log("look for a raincoat")
 
-        let raincoatAnswer = input("Did you find a raincoat [yes/no]? ")
+        let raincoatAnswer = input("Did you find a raincoat [yes/no]? ").toLowerCase()
 
         if (raincoatAnswer == "yes") {
             console.log("Go out");
         } else {
-            let eventAnswer = input("Is your event very important [yes/no]? ");
+            let eventAnswer = input("Is your event very important [yes/no]? ").toLowerCase()
 
             if (eventAnswer == "yes") {
                 console.log("Go under the rain");
