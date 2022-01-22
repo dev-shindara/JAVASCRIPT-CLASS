@@ -8,7 +8,7 @@ let drive = input("do you know how to drive a car? ");
 console.log(`Hello ${fullname.toLowerCase()} 👋`);
 
 if (drive.toLowerCase() == "yes") console.log("You know how to drive 🚗");
-if (drive.toLowerCase() == "no") console.log("You know dont how to drive 🚨");
+if (drive.toLowerCase() == "no") console.log("You dont know how to drive 🚨");
 
 if (age < 18) {
   console.log("you are not eligible for a driving license 😔.");
