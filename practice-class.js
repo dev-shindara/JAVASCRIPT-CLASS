@@ -14,9 +14,13 @@ if (age < 18) {
   console.log("you are not eligible for a driving license 😔.");
 } else if (age >= 18 && age < 50) {
   console.log("you are eligible for a driving license, Hurray 😊.");
-} else if (age >= 50) {
+} else if (age >= 50 && age < 80) {
   console.log(
     "you are eligible for a driving license, But you are quite old 👴."
+  );
+} else if (age >= 80) {
+  console.log(
+    "you not eligible for a driving license, You are too old 👴😔👴."
   );
 } else {
   console.log("I dont what you are saying 🤔.");
