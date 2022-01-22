@@ -23,5 +23,5 @@ if (age < 18) {
     "you not eligible for a driving license, You are too old 👴😔👴."
   );
 } else {
-  console.log("I dont what you are saying 🤔.");
+  console.log("I dont know what you are saying 🤔.");
 }
