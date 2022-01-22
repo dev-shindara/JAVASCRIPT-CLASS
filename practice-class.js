@@ -12,9 +12,9 @@ if (drive.toLowerCase() == "no") console.log("You know dont how to drive 🚨");
 
 if (age < 18) {
   console.log("you are not eligible for a driving license 😔.");
-} else if (age >= 18) {
+} else if (age >= 18 && age < 50) {
   console.log("you are eligible for a driving license, Hurray 😊.");
-} else if (age > 50) {
+} else if (age >= 50) {
   console.log(
     "you are eligible for a driving license, But you are quite old 👴."
   );
