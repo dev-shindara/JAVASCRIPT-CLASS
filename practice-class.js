@@ -5,7 +5,7 @@ let fullname = input("what is your fullname? ");
 let age = Math.round(parseInt(input("how old are you? ")));
 let drive = input("do you know how to drive a car? ");
 
-console.log("hello " + fullname);
+console.log(`Hello ${fullname.toLowerCase()} 👋`);
 
 if (drive.toLowerCase() == "yes") console.log("You know how to drive 🚗");
 if (drive.toLowerCase() == "no") console.log("You know dont how to drive 🚨");
