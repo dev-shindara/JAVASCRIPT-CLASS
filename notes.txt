@@ -1,0 +1,8 @@
+[PRACTICE CLASS]
+SN. command(full_meaning): function === e.g usage 
+1. dir(directory): Lists all the folders and files in a folder === e.g dir
+2. mkdir (make directory): Creates a folder === e.g mkdir <folder_name>
+3. cls (clear): Clears your terminal === e.g cls
+4. rmdir (remove directory): Deletes a folder === e.g rmdir <folder_name>
+
+Ctrl + S (to save)
